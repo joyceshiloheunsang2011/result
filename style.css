@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.your-result{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px 30px 20px;
+    color: white;
+}
+.your-result p{
+    color: rgb(212, 212, 212);
+}
+.container{
+    display: flex;
+    width: 50%;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    background-color: white;
+}
+.number{
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 50%;
+    width: 120px;
+    margin: auto;
+    padding: 5px;
+}
+.summary{
+    width: 100%;
+    padding: 30px;
+    /* border-radius: 20px; */
+}
+.reaction p, .memory p, .verbal p,.visual p{
+    color: rgb(180, 180, 180);
+}
+span{
+    color: black;
+    font-size: 15px;
+}
+.reaction h5{
+    color: hsl(0, 100%, 67%);
+    margin-right: 55%;
+    margin-left: 10px;
+}
+.reaction{
+    background-color: hsl(0, 100%, 97%);
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+.memory{
+    background-color: hsl(39, 100%, 92%);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+.verbal{
+    background-color: hsl(166, 100%, 94%);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+}
+.visual{
+    background-color: hsl(234, 100%, 96%);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+}
+.reaction, .memory, .verbal, .visual{
+    display: flex;
+    align-items: center;
+}
+.memory h5{
+    color: hsl(39, 100%, 56%);
+    margin-right: 55%;
+    margin-left: 10px;
+}
+.verbal h5{
+    color: hsl(166, 100%, 37%);
+    margin-right: 55%;
+    margin-left: 10px;
+}
+.visual h5{
+    color: hsl(234, 85%, 45%);
+    margin-right: 55%;
+    margin-left: 10px;
+}
+button{
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 40px;
+    width: 100%;
+    margin: 30px auto;
+}
+button:hover{
+    background-color: hsla(256, 72%, 46%, 1);
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        background-color: hsl(252, 100%, 67%);
+    }
+    .your-result{
+        border: 20px;
+    }
+    .summary{
+        background-color: white;
+        width: 84.5%;
+    }
+}
