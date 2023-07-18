@@ -14,6 +14,7 @@ body{
 }
 .your-result p{
     color: rgb(212, 212, 212);
+    margin-top: 40px;
 }
 .container{
     display: flex;
@@ -24,6 +25,7 @@ body{
     background-color: white;
 }
 .number{
+    padding: 100px;
     background-color: hsl(241, 81%, 54%);
     border-radius: 50%;
     width: 120px;
