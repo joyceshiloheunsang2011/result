@@ -116,10 +116,10 @@ button:hover{
         width: 100%;
         margin-top: 0;
         border-radius: 0;
-        background-color: hsl(252, 100%, 67%);
     }
     .your-result{
         border: 20px;
+        border-radius: 0 0 30px 30px;
     }
     .summary{
         background-color: white;
